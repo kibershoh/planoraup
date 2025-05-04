@@ -7,7 +7,7 @@ border:1px solid #e6e3e3;
 border-radius:10px;
 height:100px;
 padding:15px;
-margin:30px 0;
+margin:50px 0;
   @media (max-width: 768px) {
      
   }

@@ -24,7 +24,7 @@ const CategoryPage = () => {
             to={`/${category.path}/${sub.path}`}
           >
             <Images src={sub.icon} alt="" />
-            <SubcategoryName>{sub.name} </SubcategoryName>
+            <SubcategoryName>{sub.name}</SubcategoryName>
           </SubcategoryCard>
         ))}
       </SubcategoryList>

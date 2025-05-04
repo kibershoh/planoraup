@@ -5,7 +5,7 @@ import { IoMenuOutline } from "react-icons/io5";
 
 import { AddService, BottomNav, Brand, Button, ButtonDrawer, CategoryBtn, Center, CenterResponsive, CloseIcon, Drawer, DrawerButtons, DrawerHeader, DrawerLeft,   Left, Logo, MenuIcon, Nav, NavItem, Right } from './styles';
 import logo from "../../assets/logo/logo.webp"
-import { useLocation, useNavigate } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 const location = useLocation();
@@ -58,7 +58,7 @@ const navigate = useNavigate()
        <BottomNav>
         <NavItem>
           <FaHome />
-          <span>Kategoriyalar</span>
+          <span><Link to={'/'}>Kategoriyalar</Link></span>
         </NavItem>
         <NavItem>
           <FaPlus />

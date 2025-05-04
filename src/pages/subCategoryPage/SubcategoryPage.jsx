@@ -59,6 +59,7 @@ const SubcategoryPage = () => {
                   checked={checkedPlaces.includes(place)}
                   onChange={() => handleCheckboxChange(place)}
                 />
+                <br />
                 {place}
               </CheckboxLabel>
             ))}

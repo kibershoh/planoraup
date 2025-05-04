@@ -6,6 +6,13 @@ export const Container = styled.div`
   padding: 40px 20px;
   margin: 0 auto;
   width:80%;
+  @media (max-width: 768px) {
+     margin-top:20px;
+     width:95%;
+       padding: 10px;
+
+     
+  }
 
 `;
 
@@ -20,7 +27,11 @@ export const ArtistList = styled.div`
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   margin-top:30px;
+ @media (max-width: 768px) {
+      grid-template-columns: auto;
 
+   
+  }
 `;
 
 export const ArtistCard = styled(Link)`

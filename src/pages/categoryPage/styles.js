@@ -5,6 +5,11 @@ export const Container = styled.div`
   padding: 50px 20px;
   margin: 30px auto;
   width:80%;
+  @media (max-width: 768px) {
+    width:95%;
+    padding: 10px;
+    margin:10px auto
+  }
 `;
 
 export const Title = styled.h1`
@@ -18,6 +23,10 @@ export const SubcategoryList = styled.div`
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px;
   margin-top:10px;
+  @media (max-width: 768px) {
+   gap:8px;
+   
+  }
 `;
 
 export const SubcategoryCard = styled(Link)`

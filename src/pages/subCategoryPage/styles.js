@@ -138,4 +138,7 @@ position:relative;
   justify-content:end;
   gap: 8px;
   font-size: 14px;
+  @media (max-width: 768px) {
+   margin-top:30px;   
+  }
 `;

@@ -9,7 +9,7 @@ height:100px;
 padding:15px;
 margin:50px 0;
   @media (max-width: 768px) {
-     
+     margin-bottom:50px;
   }
 `;
 
@@ -32,7 +32,7 @@ font-size:16px;
 color:#7A922E;
 text-decoration:none;
   @media (max-width: 768px) {
-     
+     padding-bottom:70px;
   }
 `;
  

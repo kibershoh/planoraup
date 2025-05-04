@@ -3,6 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import { allData } from '../../data';
 import { HiMiniArrowRightEndOnRectangle } from "react-icons/hi2";
 import { IoFilterOutline } from "react-icons/io5";
+import { ArtistCard, ArtistImage, ArtistList, ArtistName, ArtistPlace, ArtistPrice, ButtonProfile, CheckboxLabel, Container, FilterButton, FilterPanel, FilterSearch, SearchInput } from './styles';
 
 const SubcategoryPage = () => {
   const { categoryPath, subCategoryPath } = useParams();
@@ -37,9 +38,6 @@ const SubcategoryPage = () => {
   });
   return (
     <Container>
-
-
-
       <FilterSearch>
         <SearchInput
           type="text"

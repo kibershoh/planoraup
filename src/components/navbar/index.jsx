@@ -28,14 +28,14 @@ const navigate = useNavigate()
 
         <Center>
           <CategoryBtn onClick={()=>navigate('/')}><FaHome /> Kategoriyalar</CategoryBtn>
-          <AddService><FaPlus /> Xizmat qo'shish</AddService>
+          <AddService onClick={()=>navigate('/xizmat-qoshish')}><FaPlus /> Xizmat qo'shish</AddService>
         </Center>
         <CenterResponsive>
             <CategoryBtn>{currentPage}</CategoryBtn>
         </CenterResponsive>
 
         <Right>
-          <Button transparent>Sign In</Button>
+          <Button onClick={()=>navigate('/signin')} transparent>Sign In</Button>
           <Button>Sign Up</Button>
           {/* <MenuIcon onClick={() => setIsOpen(true)}><FaBars /></MenuIcon> */}
         </Right>

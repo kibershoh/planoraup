@@ -7,6 +7,7 @@ import CategoryPage from './pages/categoryPage';
 import SubcategoryPage from './pages/subCategoryPage/SubcategoryPage';
 import ArtistDetailPage from './pages/artistDetailsPage';
 import Breadcrumbs from './components/breadcrumbs';
+import AddService from './pages/addService';
 
 function App() {
 
@@ -15,6 +16,8 @@ function App() {
      <Navbar/>      
      <Breadcrumbs/>       
        <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/xizmat-qoshish" element={<AddService/>} />
         <Route path="/" element={<Home />} />
         <Route path="/:categoryPath" element={<CategoryPage />} />
         <Route path="/:categoryPath/:subCategoryPath" element={<SubcategoryPage />} />  

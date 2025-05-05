@@ -178,6 +178,10 @@ export const ButtonDrawer = styled.button`
   color: #7A922E;
   font-size: 14px;
   cursor: pointer;
+  span a{
+    color:#7A922E;
+    text-decoration:none;
+  }
 
   svg {
     font-size: 20px;

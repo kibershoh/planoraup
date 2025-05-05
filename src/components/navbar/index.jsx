@@ -62,7 +62,7 @@ const navigate = useNavigate()
         </NavItem>
         <NavItem>
           <FaPlus />
-          <span>Xizmat qo'shish</span>
+          <span onClick={()=>navigate('/xizmat-qoshish')}>Xizmat qo'shish</span>
         </NavItem>
       </BottomNav>
     </>

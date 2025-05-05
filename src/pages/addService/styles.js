@@ -10,6 +10,8 @@ height:100px;
 padding:15px;
 display:flex;
 justify-content:space-around;
+flex-wrap:wrap;
+
 margin:50px auto;
   @media (max-width: 768px) {
      margin-bottom:50px;

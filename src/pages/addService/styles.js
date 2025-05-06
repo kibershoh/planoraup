@@ -6,7 +6,7 @@ width:90%;
 
 border:1px solid #e6e3e3;
 border-radius:10px;
-height:100px;
+height:auto;
 padding:15px;
 display:flex;
 justify-content:space-around;
@@ -39,7 +39,7 @@ color:#7A922E;
 height:35px;
 text-decoration:none;
   @media (max-width: 768px) {
-     padding-bottom:70px;
+margin-top:20px;
   }
 `;
  

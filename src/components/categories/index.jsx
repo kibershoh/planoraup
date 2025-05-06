@@ -17,9 +17,9 @@ const Categories = () => {
                                 <Image src={item.image} alt={item.name} />
                                 <Title>{item.name}</Title>
                             </NameLogo>
-                           <Button>
+                           {/* <Button>
                              <MdChevronRight size={25} />
-                           </Button>
+                           </Button> */}
                            </Card>
                              </StyledLink>
                     ))}

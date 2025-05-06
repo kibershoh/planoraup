@@ -6,9 +6,9 @@ border:1px solid #e6e3e3;
 border-radius:10px;
 height:auto;
 padding:15px;
-// margin:50px 0;
+margin:50px 0;
   @media (max-width: 768px) {
-     padding-bottom:50px;
+ 
   }
 `;
 
@@ -23,6 +23,7 @@ color:#666;
 `;
 
 export const TelegramLink = styled.a`
+heigth:60px;
 background:rgb(222, 225, 221);
 border:none;
 padding:5px;
@@ -31,7 +32,6 @@ font-size:16px;
 color:#7A922E;
 text-decoration:none;
   @media (max-width: 768px) {
-     padding-bottom:70px;
   }
 `;
  

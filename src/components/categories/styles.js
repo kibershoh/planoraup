@@ -7,8 +7,9 @@ export const Categorie = styled.div`
 `;
 
 export const Container = styled.div`
-  display: flex;
-  flex-direction: column;
+  display:grid;
+    grid-template-columns: repeat(4, 1fr);
+
   gap: 20px;
   padding: 4px 0;
 `;
@@ -16,18 +17,21 @@ export const Container = styled.div`
 export const NameLogo = styled.div`
   display: flex;
   align-items: center;
+  flex-direction:column;
+  text-align:center;
   // gap:20px;
 `;
 export const Card = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 10px;
   border-radius: 8px;
   width: 100%;
-  border-bottom: 1px solid #e6e3e3;
+   background:#F5F5F5;
+
   &:hover {
-    background: #f5f5f5;
+    background:#e6e4e4;
   }
 `;
 
@@ -48,8 +52,9 @@ export const Button = styled.div`
 `;
 
 export const Image = styled.img`
-  width: 70px;
-  border-radius: 8px;
+  width: 100px;
+  border-radius: 50%;
+  background:#fff;
 `;
 
 export const Title = styled.h3`

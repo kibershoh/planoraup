@@ -20,10 +20,12 @@ export const Title = styled.h1`
 
 export const SubcategoryList = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   gap: 20px;
   margin-top:10px;
   @media (max-width: 768px) {
+      grid-template-columns: repeat(2, 1fr);
+
    gap:8px;
    
   }

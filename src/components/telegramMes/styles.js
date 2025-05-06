@@ -3,13 +3,12 @@ import styled from 'styled-components';
 
 export const TextBox = styled.div`
 border:1px solid #e6e3e3;
-
 border-radius:10px;
-height:100px;
+height:auto;
 padding:15px;
-margin:50px 0;
+// margin:50px 0;
   @media (max-width: 768px) {
-     margin-bottom:50px;
+     padding-bottom:50px;
   }
 `;
 

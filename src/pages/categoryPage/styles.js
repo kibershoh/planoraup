@@ -26,7 +26,7 @@ export const SubcategoryList = styled.div`
   @media (max-width: 768px) {
       grid-template-columns: repeat(2, 1fr);
       gap:8px;
-      margin-top:5px;
+      margin-top:25px;
 
    
   }

@@ -75,7 +75,14 @@ export const SearchInput = styled.input`
   border:1px solid #777;
   border-radius:4px;
   height:30px;
+  width:300px;
+
   outline:none;
+   @media (max-width: 668px) {
+   width:100%
+     justify-content:center;
+
+  }
 
 `;
 export const ButtonProfile = styled.button`
@@ -140,5 +147,8 @@ position:relative;
   font-size: 14px;
   @media (max-width: 768px) {
    margin-top:30px;   
+   width:100%
+     justify-content:center;
+
   }
 `;

@@ -22,12 +22,12 @@ export const SubcategoryList = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
-  margin-top:10px;
+  margin-top:40px;
   @media (max-width: 768px) {
       grid-template-columns: repeat(2, 1fr);
       gap:8px;
       margin-top:5px;
-      
+
    
   }
 `;
@@ -41,7 +41,7 @@ export const SubcategoryCard = styled(Link)`
   text-decoration: none;
   color: #000;
   transition: transform 0.2s ease;
-  margin-top: 30px;
+  // margin-top: 30px;
   background:#F5F5F5;
 
   &:hover {
